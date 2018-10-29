@@ -9,7 +9,7 @@ int main()
 		zarodek = time(&tt);
 		srand(zarodek); 
 
-		int losowa = rand()%200+1;
+		int losowa =  rand()%200+1;
 		int dzielna = losowa;
 		int dzielnik;
 		int reszta;
